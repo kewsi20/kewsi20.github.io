@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>My Portfolio Website</title>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!--CSS file-->
+    <link rel="stylesheet" href="Portfolio.css">
+
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!--THIS IS HEADER-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">KEW SI CHENG</a>
+            </div>
+
+    <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+    </div>
+        <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+    </div>
+    </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <h1 class="home__title"><br>Welcome to my page</h1>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Please scroll down</a>
+                </div>
+            </div>
+        </section>
+        
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+            <!--Put Ur Photo PLS-->    
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="image/IMG_0192.JPG" alt="">
+                    </div>
+            <!--Write about yourself-->        
+                    <div>
+                        <h2 class="about__subtitle">I'm Si Cheng</h2>
+                        <span class="about__profession">Writer</span>
+                        <p class="about__text">
+                        A reporter with more than 5 years’ experience in fast-paced and high requirement environment. Now is jumping to data-driven news stories and a beginner of HTML5 and CSS. Always thinking to visualize a complicated data set to the readers.
+                        </p>
+
+                        <div class="about__social">
+                            <a href="https://www.linkedin.com/in/si-cheng-kew/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">
+                    <div class="skills__box">
+                        <h3 class="skills__subtitle">My Skills</h3>
+                        <span class="skills__name">Writing and Translating</span>
+                        <span class="skills__name">Data Visualization</span>
+                        <span class="skills__name">Html</span>
+                        <span class="skills__name">Css</span>
+                        <span class="skills__name">Javascript</span>
+                    </div>
+            <!--===== IMAGE AGAIN =====-->        
+                    <div class="skills__img">
+                        <img src="image/dvnoenb.JPG" alt="">
+                    </div>
+                </div>
+            </section>
+            <!--CONTACT-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <div class="contact__info">
+                        <h3 class="contact__subtitle">EMAIL</h3>
+                        <span class="contact__text">kewsi20@gmail.com</span>
+
+                        <h3 class="contact__subtitle">PHONE</h3>
+                        <span class="contact__text">+60167001886</span>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <input type="text" placeholder="Name" class="contact__input">
+                            <input type="mail" placeholder="Email" class="contact__input">
+                        </div>
+
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                        <input type="submit" value="submit" class="contact__button">
+                    </form>
+                </div>
+            </section>
+            <script src="main.js" ></script>
+</body>
